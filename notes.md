@@ -1,0 +1,3 @@
+=> `"parcel": "^2.11.0"` //carat here means if tomorrow there is a minor upgrade parcel will automatically, ~will upgrade the major versions automatically
+
+=> package.json is a manifest file for Node.js projects, specifying the project's metadata, dependencies, scripts, and more. It outlines the packages your project depends on so you can install them using npm or yarn. On the other hand, package-lock.json is automatically generated and tracks the exact version of each installed package and its dependencies, ensuring consistency across installations. While package.json can specify ranges for versions, package-lock.json locks them down to specific versions to prevent discrepancies in future installations.

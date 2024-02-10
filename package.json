@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumeet-Raina/react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Sumeet Raina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumeet-Raina/react/issues"
+  },
+  "homepage": "https://github.com/Sumeet-Raina/react#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
