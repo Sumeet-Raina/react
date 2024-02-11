@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// title is a react element
-const title = (
+// title is a react component
+const Title = () => (
   <h1 className="head" tabIndex="5">
     react using JSX
   </h1>
@@ -11,7 +11,9 @@ const title = (
 const HeadingComponent = () => {
   return (
     <div id="container">
-      {title}
+      {Title()}
+      <Title />
+      <Title></Title>
       <h1>React functional component</h1>
     </div>
   );
