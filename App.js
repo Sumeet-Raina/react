@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import logo from "./logo.png";
+import salad from "./salad.jpg";
 import "./index.css";
 
 const Header = () => {
@@ -27,6 +28,19 @@ const Body = () => {
       <div className="search">Search</div>
       <div className="res-container">
         <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
       </div>
     </div>
   );
@@ -35,7 +49,11 @@ const Body = () => {
 const RestaurantCard = () => {
   return (
     <div className="res-card">
+      <img src={salad} className="res-logo" />
       <h3>Meghna foods</h3>
+      <h4>Biryani, North Indian, Asian</h4>
+      <h4>4.4 stars</h4>
+      <h4>38 minutes</h4>
     </div>
   );
 };
