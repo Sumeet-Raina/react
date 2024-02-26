@@ -3,11 +3,14 @@ import ReactDOM from "react-dom/client";
 import logo from "./logo.png";
 import salad from "./salad.jpg";
 import "./index.css";
+import data from "./mockResMenu.json";
+
+console.log(data.data.cards[0].card.card.info.name);
 
 const Header = () => {
   return (
     <div className="header">
-      <div classname="logo-container">
+      <div className="logo-container">
         <img src={logo} className="logo" />
       </div>
       <div className="nav-items">
@@ -28,19 +31,6 @@ const Body = () => {
       <div className="search">Search</div>
       <div className="res-container">
         <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
       </div>
     </div>
   );
@@ -60,7 +50,7 @@ const RestaurantCard = () => {
 
 const AppLayout = () => {
   return (
-    <div class="app">
+    <div className="app">
       <Header />
       <Body />
     </div>
